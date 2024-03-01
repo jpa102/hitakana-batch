@@ -1,0 +1,18 @@
+::===============================================================================
+:normalpage
+::
+cls
+echo.
+echo   Hiragana and Katakana characters for web browsers
+echo   ver: %ver% %status%
+echo.
+echo Usage:
+echo 	Highlight and copy the output by right clicking it
+echo 	ex: %__%output%__% %__%k_na%__% - will give you %__%e3%__%83%__%8a.
+echo.
+echo 	PrintHelp - get help and information
+echo.
+goto end
+
+
+

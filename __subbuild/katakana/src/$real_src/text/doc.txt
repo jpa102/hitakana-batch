@@ -1,0 +1,33 @@
+﻿hi, welcome!
+
+basic introduction:
+
+	the name "hitakana" is basically hiragana and katakana fused into one word (i know it's
+	silly, but that's the "term" i've thought while developing this script)
+
+	this script returns hex data for japanese kanas, also gives functional links for google and youtube
+	when you paste them into the browser's address bar, it will be rendered as a normal character
+	ex: https://google.com/search?q=%e3%82%8a to https://google.com/search?q=り
+
+
+
+in this text file, i'll be explaining some info about the files and folders:
+
+	<folders>
+	"addons" folder - where user-created scripts are placed
+			i've included a script named "basicwords.bat" that includes some common japanese words
+			after you've placed the scripts inside, launch them by typing addons\yourscript.bat (in some cases, it may be in .cmd format)
+
+	"data" folder - this is where "database.pdb" is located, loaded by another script named "_launcher.bat"
+
+	"utils" folder - where utilities are located, mostly for main.cmd. do not touch them, really.
+
+	<files>
+	\addons\build.txt - where you can read about how to make your own script
+	\data\raw_database.txt - where you can see all of the hex data for the japanese kanas
+	about.bat - prints out the about texts in the command line
+	doc.txt - this document / text file that you're reading right now
+	main.cmd - the main "executable"
+	main.ini - configuration file for main.cmd, nothing really special
+	PrintHelp.bat - a script that supplies you with help and information about how to use this
+	uninstall.cmd - self-explanatory

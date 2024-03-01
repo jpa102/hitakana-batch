@@ -1,0 +1,4 @@
+@echo off
+
+title Hiragana and Katakana characters for web browsers [ v%ver% %status%]
+

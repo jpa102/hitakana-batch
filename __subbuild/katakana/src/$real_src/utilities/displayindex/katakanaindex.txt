@@ -1,0 +1,40 @@
+echo.
+echo === [KATAKANA] ===
+echo Starts with: "k_"
+echo.
+echo  k_a (a) ^| k_ka (ka) ^|  k_sa (sa)  ^|  k_ta (ta)  ^| k_na (na) ^| k_ha (ha) ^| k_ma (ma) ^| k_ya (ya) ^| k_ra (ra) ^| k_wa (wa) ^| k_n (n)
+echo  k_i (i) ^| k_ki (ki) ^| k_shi (shi) ^| k_chi (chi) ^| k_ni (ni) ^| k_hi (hi) ^| k_mi (mi) ^|           ^| k_ri (ri)
+echo  k_u (u) ^| k_ku (ku) ^|  k_su (su)  ^| k_tsu (tsu) ^| k_nu (nu) ^| k_fu (fu) ^| k_mu (mu) ^| k_yu (yu) ^| k_ru (ru)
+echo  k_e (e) ^| k_ke (ke) ^|  k_se (se)  ^|  k_te (te)  ^| k_ne (ne) ^| k_he (he) ^| k_me (me) ^|           ^| k_re (re)
+echo  k_o (o) ^| k_ko (ko) ^|  k_so (so)  ^|  k_to (to)  ^| k_no (no) ^| k_ho (ho) ^| k_mo (mo) ^| k_yo (yo) ^| k_ro (ro) ^| k_wo (wo)
+
+echo.
+
+echo --- ^(dakuten^)
+echo          ^| k_ga (ga) ^|  k_za (za) ^|  k_da (da) ^|           ^| k_ba (ba) ^|           ^| 
+echo          ^| k_gi (gi) ^|  k_ji (ji) ^|            ^|           ^| k_bi (bi) ^|           ^| 
+echo          ^| k_gu (gu) ^|  k_zu (zu) ^|            ^|           ^| k_bu (bu) ^|           ^| 
+echo          ^| k_ge (ge) ^|  k_ze (ze) ^|  k_de (de) ^|           ^| k_be (be) ^|           ^| 
+echo          ^| k_go (go) ^|  k_zo (zo) ^|  k_do (do) ^|           ^| k_bo (bo) ^|           ^| 
+
+echo.
+
+echo --- ^(handakuten^)
+echo  k_pa (pa) ^| 
+echo  k_pi (pi) ^| 
+echo  k_pu (pu) ^| 
+echo  k_pe (pe) ^| 
+echo  k_po (po) ^| 
+echo.
+
+echo --- ^(small katakana^)
+echo Starts with: "sk_"
+echo.
+echo  sk_a (a) ^| sk_ka (ka) ^|            ^|              ^|            ^|            ^|            ^| sk_ya (ya)
+echo  sk_i (i) ^|            ^|            ^|              ^|            ^|            ^|            ^| 
+echo  sk_u (u) ^| sk_ku (ku) ^|            ^| sk_tsu (tsu) ^|            ^|            ^|            ^| sk_yu (yu)
+echo  sk_e (e) ^| sk_ke (ke) ^|            ^|              ^|            ^|            ^|            ^| 
+echo  sk_o (o) ^|            ^|            ^|              ^|            ^|            ^|            ^| sk_yo (yo)
+echo.
+pause
+

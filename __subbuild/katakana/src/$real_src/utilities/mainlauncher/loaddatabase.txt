@@ -1,0 +1,18 @@
+if %FastLoading% == 0 (
+	ren data\database.pdb database.bat
+
+	rem the long load time is justified for the database to be loaded properly
+	rem you're free to set FastLoading=1 at line 4 in main.ini
+	rem it's here just in case it produces issues
+
+	ping localhost -n 5 > nul
+	call data\database.bat
+	ping localhost -n 1 > nul
+	ren data\database.bat database.pdb
+) else (
+	ping localhost -n 1 > nul
+	ren data\database.pdb database.bat
+	call data\database.bat
+	ren data\database.bat database.pdb
+)
+

@@ -1,0 +1,81 @@
+﻿build.txt
+
+this is the addons folder, where you can add other's scripts and run them
+but if you want to create your own script, here's what to do:
+
+
+
+first things first, these are the functions that you can use: (i'm not gonna list all of them though)
+
+	cd /d "%~dp0" - this will change directory to the same path the script is being executed on
+	cls - clear the console's screen
+	echo - print out the specified text on screen
+	:: or rem - these are used for comments, they are ignored / do nothing
+	:YourLabel - this is the label, you can give it any name that you can think of
+	goto YourLabel - go to a specified label
+	call - call a batch script or executable (call myscript.bat | call myexecutable.exe)
+	start - this will start a new instance of the command line (start myscript.bat | start myexecutable.exe)
+	cmd /k - start an instance without closing the command line
+
+	set MyVariable=contents - define a new variable, it can be anything
+	|
+	if your variable contains spaces, you can set it like this:
+		set "MyVariable=This variable has spaces!"
+	note that the variable ITSELF cannot have spaces, the contents of the variable will not matter
+
+	if else - conditional
+	|
+	example:
+		IF exist filename.txt (
+			echo the file "filename.txt" exists.
+		) ELSE (
+			echo the file "filename.txt" does not exist.
+		)
+
+	%errorlevel% - the error code being given after execution (0 - successful, 1 and up - not successful? / something went wrong?)
+	|
+	you can test this out by typing echo %errorlevel%
+
+
+	more information by typing cmd /?
+
+
+
+now for the fun part, creating your script. this is mainly for adding custom japanese words / characters but you can create whatever you want
+you can use this example:
+
+==========================
+
+@echo off
+
+set hazukashii=%__%e6%__%81%__%a5%__%e3%__%81%__%9a%__%e3%__%81%__%8b%__%e3%__%81%__%97%__%e3%__%81%__%84
+
+==========================
+
+	(this will give hex data for the word "hazukashii")
+
+ 	note that %__% is the variable for the percentage character (you can open basicwords.bat in notepad for more examples of these)
+
+ 	keep in mind, this data does not come from the default data\database.pdb, i got this from google translate ("embarrassed" word)
+	you can create your own database for your hex data if you want, but you can use the default database to define your own words
+	
+	to get your own data, you will need to turn this:
+		https://www.google.com/search?q=恥ずかしい&oq=恥ずかしい&aqs=chrome..69i57.1280j0j9&sourceid=chrome&ie=UTF-8
+	to this:
+		https://www.google.com/search?q=%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84&oq=%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84&aqs=chrome..69i57.1280j0j9&sourceid=chrome&ie=UTF-8
+	by copying the entire url from the address bar and pasting it into notepad
+
+	you will only want to get the part that looks like this:
+		%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84 (do you notice the difference?)
+
+	now. when you have the raw hex data, you need to process this by pressing left ctrl and h
+	type in the find what: %
+	and then type in the replace with: %__%
+	press replace all and you're done!
+
+	once you got it processed, you can then set it as a variable:
+
+	set hazukashii=%__%e6%__%81%__%a5%__%e3%__%81%__%9a%__%e3%__%81%__%8b%__%e3%__%81%__%97%__%e3%__%81%__%84
+
+save it, and you're all done!
+you have just created your own script!

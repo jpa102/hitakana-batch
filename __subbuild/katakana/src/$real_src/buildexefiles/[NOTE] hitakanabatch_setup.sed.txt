@@ -1,0 +1,22 @@
+You need to replace YourDriveDirectory with your path in hitakanabatch_setup.txt
+Example:
+
+	Find what: YourDriveDirectory
+	Replace with: C:\buildproject
+
+You can do this by pressing ctrl + h in notepad (or other text editor)
+Don't include the hitakana_build\src in the path!
+
+This is crucial because the IExpress will fail if
+it can't find the proper directory location
+
+Once you're done, rename hitakanabatch_setup.txt to hitakanabatch_setup.sed
+If you have "show file extensions" disabled, you can still do it in the
+command line by running this command:
+
+	ren hitakanabatch_setup.txt hitakanabatch_setup.sed
+	
+	(the command line should be run in the current
+	directory, you can do this by typing in cmd.exe in the file explorer address bar)
+
+And you should be good to go

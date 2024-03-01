@@ -1,0 +1,26 @@
+@echo off
+
+echo.
+echo =================================================================
+echo.
+echo Help:
+echo.
+echo 	Type out %__% %__% in between words
+echo 	%__%output%__% first, then the words (example: %__%output%__% %__%variable%__%)
+echo.
+echo 	%__%list%__% - lists all available "kana" in the index
+echo 	%__%GoogleSearch%__% - outputs the google search link (needs to be filled out with "kana")
+echo 	%__%YouTubeSearch%__% - outputs the youtube search link (needs to be filled out with "kana")
+echo 	%__%clear%__% - clears out all the texts displayed
+echo 	%__%space%__% - space "character"
+echo.
+echo ===
+echo.
+echo Information:
+echo.
+echo 		k_kana = katakana
+echo 		h_kana = hiragana
+echo.
+echo		where "kana" is something like ta, ri, sa, etc...
+echo		you can find out more by typing %__%list%__%
+echo.

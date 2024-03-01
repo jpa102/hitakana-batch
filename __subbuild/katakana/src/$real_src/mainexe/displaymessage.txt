@@ -1,0 +1,9 @@
+:DisplayMessageCheck
+type main.ini | findstr "SimpleMessage=1"
+cls
+if %errorlevel% == 1 (
+	set SimpleMessage=0
+) else (
+	set SimpleMessage=1
+)
+

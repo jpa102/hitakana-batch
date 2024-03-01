@@ -1,0 +1,225 @@
+@echo off
+
+if %CDebugScripts% == 0 (
+	@echo off
+)
+
+if %CDebugScripts% == 1 (
+	@echo on
+)
+
+::
+::	apparently, command prompt doesn't like the percentage char being displayed at output
+::	so, this means that:
+::		__ (double underscore = Percentage symbol)
+::
+
+:: for the percentage symbol to appear on the console screen
+set "__=%%%"
+
+:: browser link(s)
+set "BingSearch=https://bing.com/search?q="
+set "GoogleSearch=https://google.com/search?q="
+set "YouTubeSearch=https://youtube.com/results?search_query="
+
+::==============
+:: for hiragana and katakana
+::
+set k_l=%__%e3%__%83%__%bc
+set expoint=%__%ef%__%bc%__%81
+set qmark=%__%ef%__%bc%__%9f
+set dot=%__%e3%__%80%__%82
+set comma=%__%e3%__%80%__%81
+set leftquote=%__%e3%__%80%__%8c
+set rightquote=%__%e3%__%80%__%8d
+::==============
+
+::==============
+:: space
+set "space=%__%20"
+
+::===============================================================================
+:: for katakana
+::
+
+  set k_a=%__%e3%__%82%__%a2
+  set k_i=%__%e3%__%82%__%a4
+  set k_u=%__%e3%__%82%__%a6
+  set k_e=%__%e3%__%82%__%a8
+  set k_o=%__%e3%__%82%__%aa
+ set k_ka=%__%e3%__%82%__%ab
+ set k_ki=%__%e3%__%82%__%ad
+ set k_ku=%__%e3%__%82%__%af
+ set k_ke=%__%e3%__%82%__%b1
+ set k_ko=%__%e3%__%82%__%b3
+ set k_sa=%__%e3%__%82%__%b5
+set k_shi=%__%e3%__%82%__%b7
+ set k_su=%__%e3%__%82%__%b9
+ set k_se=%__%e3%__%82%__%bb
+ set k_so=%__%e3%__%82%__%bd
+ set k_ta=%__%e3%__%82%__%bf
+set k_chi=%__%e3%__%83%__%81
+set k_tsu=%__%e3%__%83%__%84
+ set k_te=%__%e3%__%83%__%86
+ set k_to=%__%e3%__%83%__%88
+ set k_na=%__%e3%__%83%__%8a
+ set k_ni=%__%e3%__%83%__%8b
+ set k_nu=%__%e3%__%83%__%8c
+ set k_ne=%__%e3%__%83%__%8d
+ set k_no=%__%e3%__%83%__%8e
+ set k_ha=%__%e3%__%83%__%8f
+ set k_hi=%__%e3%__%83%__%92
+ set k_fu=%__%e3%__%83%__%95
+ set k_he=%__%e3%__%83%__%98
+ set k_ho=%__%e3%__%83%__%9b
+ set k_ma=%__%e3%__%83%__%9e
+ set k_mi=%__%e3%__%83%__%9f
+ set k_mu=%__%e3%__%83%__%a0
+ set k_me=%__%e3%__%83%__%a1
+ set k_mo=%__%e3%__%83%__%a2
+ set k_ya=%__%e3%__%83%__%a4
+ set k_yu=%__%e3%__%83%__%a6
+ set k_yo=%__%e3%__%83%__%a8
+ set k_ra=%__%e3%__%83%__%a9
+ set k_ri=%__%e3%__%83%__%aa
+ set k_ru=%__%e3%__%83%__%ab
+ set k_re=%__%e3%__%83%__%ac
+ set k_ro=%__%e3%__%83%__%ad
+ set k_wa=%__%e3%__%83%__%af
+ set k_wo=%__%e3%__%83%__%b2
+  set k_n=%__%e3%__%83%__%b3
+
+:: --- dakuten
+ set k_ga=%__%e3%__%82%__%ac
+ set k_gi=%__%e3%__%82%__%ae
+ set k_gu=%__%e3%__%82%__%b0
+ set k_ge=%__%e3%__%82%__%b2
+ set k_go=%__%e3%__%82%__%b4
+ set k_za=%__%e3%__%82%__%b6
+set k_ji=%__%e3%__%82%__%b8
+set k_zu=%__%e3%__%82%__%ba
+ set k_ze=%__%e3%__%82%__%bc
+ set k_zo=%__%e3%__%82%__%be
+ set k_da=%__%e3%__%83%__%80
+ set k_de=%__%e3%__%83%__%87
+ set k_do=%__%e3%__%83%__%89
+
+ set k_ba=%__%e3%__%83%__%90
+ set k_bi=%__%e3%__%83%__%93
+ set k_bu=%__%e3%__%83%__%96
+ set k_be=%__%e3%__%83%__%99
+ set k_bo=%__%e3%__%83%__%9c
+
+:: --- handakuten
+ set k_pa=%__%e3%__%83%__%91
+ set k_pi=%__%e3%__%83%__%94
+ set k_pu=%__%e3%__%83%__%97
+ set k_pe=%__%e3%__%83%__%9a
+ set k_po=%__%e3%__%83%__%9d
+
+:: --- small katakana
+   set sk_a=%__%e3%__%82%__%a1
+   set sk_i=%__%e3%__%82%__%a3
+   set sk_u=%__%e3%__%82%__%a5
+   set sk_e=%__%e3%__%82%__%a7
+   set sk_o=%__%e3%__%82%__%a9
+  set sk_ka=%__%e3%__%83%__%b5
+  set sk_ku=%__%e3%__%87%__%b0
+  set sk_ke=%__%e3%__%83%__%b6
+  set sk_ya=%__%e3%__%83%__%a3
+  set sk_yu=%__%e3%__%83%__%a5
+  set sk_yo=%__%e3%__%83%__%a7
+ set sk_tsu=%__%e3%__%83%__%83
+
+
+::===============================================================================
+:: for hiragana
+::
+
+  set h_a=%__%e3%__%81%__%82
+  set h_i=%__%e3%__%81%__%84
+  set h_u=%__%e3%__%81%__%86
+  set h_e=%__%e3%__%81%__%88
+  set h_o=%__%e3%__%81%__%8a
+ set h_ka=%__%e3%__%81%__%8b
+ set h_ki=%__%e3%__%81%__%8d
+ set h_ku=%__%e3%__%81%__%8f
+ set h_ke=%__%e3%__%81%__%91
+ set h_ko=%__%e3%__%81%__%93
+ set h_sa=%__%e3%__%81%__%95
+set h_shi=%__%e3%__%81%__%97
+ set h_su=%__%e3%__%81%__%99
+ set h_se=%__%e3%__%81%__%9b
+ set h_so=%__%e3%__%81%__%9d
+ set h_ta=%__%e3%__%81%__%9f
+set h_chi=%__%e3%__%81%__%a1
+set h_tsu=%__%e3%__%81%__%a4
+ set h_te=%__%e3%__%81%__%a6
+ set h_to=%__%e3%__%81%__%a8
+ set h_na=%__%e3%__%81%__%aa
+ set h_ni=%__%e3%__%81%__%ab
+ set h_nu=%__%e3%__%81%__%ac
+ set h_ne=%__%e3%__%81%__%ad
+ set h_no=%__%e3%__%81%__%ae
+ set h_ha=%__%e3%__%81%__%af
+ set h_hi=%__%e3%__%81%__%b2
+ set h_fu=%__%e3%__%81%__%b5
+ set h_he=%__%e3%__%81%__%b8
+ set h_ho=%__%e3%__%81%__%bb
+ set h_ma=%__%e3%__%81%__%be
+ set h_mi=%__%e3%__%81%__%bf
+ set h_mu=%__%e3%__%82%__%80
+ set h_me=%__%e3%__%82%__%81
+ set h_mo=%__%e3%__%82%__%82
+ set h_ya=%__%e3%__%82%__%84
+ set h_yu=%__%e3%__%82%__%86
+ set h_yo=%__%e3%__%82%__%88
+ set h_ra=%__%e3%__%82%__%89
+ set h_ri=%__%e3%__%82%__%8a
+ set h_ru=%__%e3%__%82%__%8b
+ set h_re=%__%e3%__%82%__%8c
+ set h_ro=%__%e3%__%82%__%8d
+ set h_wa=%__%e3%__%82%__%8f
+ set h_wo=%__%e3%__%82%__%92
+  set h_n=%__%e3%__%82%__%93
+
+:: --- dakuten
+ set h_ga=%__%e3%__%81%__%8c
+ set h_gi=%__%e3%__%81%__%8e
+ set h_gu=%__%e3%__%81%__%90
+ set h_ge=%__%e3%__%81%__%92
+ set h_go=%__%e3%__%81%__%94
+ set h_za=%__%e3%__%81%__%96
+ set h_ji=%__%e3%__%81%__%98
+ set h_zu=%__%e3%__%81%__%9a
+ set h_ze=%__%e3%__%81%__%9c
+ set h_zo=%__%e3%__%81%__%9e
+ set h_da=%__%e3%__%81%__%a0
+ set h_de=%__%e3%__%81%__%a7
+ set h_do=%__%e3%__%81%__%a9
+
+ set h_ba=%__%e3%__%81%__%b0
+ set h_bi=%__%e3%__%81%__%b3
+ set h_bu=%__%e3%__%81%__%b6
+ set h_be=%__%e3%__%81%__%b9
+ set h_bo=%__%e3%__%81%__%bc
+
+:: --- handakuten
+ set h_pa=%__%e3%__%81%__%b1
+ set h_pi=%__%e3%__%81%__%b4
+ set h_pu=%__%e3%__%81%__%b7
+ set h_pe=%__%e3%__%81%__%ba
+ set h_po=%__%e3%__%81%__%bd
+
+:: --- small hiragana
+   set sh_a=%__%e3%__%81%__%81
+   set sh_i=%__%e3%__%81%__%83
+   set sh_u=%__%e3%__%81%__%85
+   set sh_e=%__%e3%__%81%__%87
+   set sh_o=%__%e3%__%81%__%89
+  set sh_ka=%__%e3%__%82%__%95
+  set sh_ke=%__%e3%__%82%__%96
+  set sh_ya=%__%e3%__%82%__%83
+  set sh_yu=%__%e3%__%82%__%85
+  set sh_yo=%__%e3%__%82%__%87
+ set sh_tsu=%__%e3%__%81%__%a3

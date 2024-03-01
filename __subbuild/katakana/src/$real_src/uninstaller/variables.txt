@@ -1,0 +1,6 @@
+set "delscript=del /q uninstall.cmd"
+set "delfolder=rd /s /q hitakana_batch"
+set "movebackdir=cd .."
+set "movebackscript=move uninstall.cmd .."
+
+

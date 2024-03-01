@@ -1,0 +1,6 @@
+if %statusenable% == 0 (
+	set status=
+) else (
+	set "status=%statustype% "
+)
+

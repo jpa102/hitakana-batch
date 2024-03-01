@@ -1,0 +1,9 @@
+:FastLoadingCheck
+type main.ini | findstr "FastLoading=1"
+cls
+if %errorlevel% == 1 (
+	set FastLoading=0
+) else (
+	set FastLoading=1
+)
+
