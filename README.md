@@ -7,6 +7,19 @@ go to src/$real_src and run makefiles.cmd
 this will combine all the text files into batch scripts (where main.cmd is the main batch script)
 
 ## usage
+type %output% %your_input%
+
+where "%output%" is just a remapped echo command, and "%your_input%" is the type of kana (%h_ri% will output %e3%82%8a / 0xe3828a)
+
+h_ is for hiragana and k_ is for katakana
+
+a **good example** of output is %output% %h_a%%h_ri%%h_ga%%h_to%%h_u% which will print out "%e3%81%82%e3%82%8a%e3%81%8c%e3%81%a8%e3%81%86" (ありがとう)
+
+# etc / miscellaneous
+
+## but but, i don't want to type out "h_" and "k_" every single time!!!
+
+that's a good one, there's sub builds of hitakana where it focuses on only one kana so you don't have to make your fingers tired like it ran a marathon
 
 ## why is it named like that?
 i combined (hira)gana and kata(kana) into "one" word, that's why it's spelled like that
