@@ -3,6 +3,7 @@ this is hitakana, a silly *batch script* that **outputs** japanese kana (hiragan
 
 ## building
 go to src/$real_src and run makefiles.cmd
+
 this will combine all the text files into batch scripts (where main.cmd is the main batch script)
 
 ## usage
