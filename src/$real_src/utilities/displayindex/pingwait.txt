@@ -1,0 +1,4 @@
+echo.
+echo Please wait...
+ping localhost -n 4 > nul
+echo.

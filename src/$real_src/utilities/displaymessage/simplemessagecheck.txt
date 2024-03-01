@@ -1,0 +1,15 @@
+if "%SimpleMessage%"=="" (
+	echo SimpleMessage= at line 6 in main.ini is either missing or misconfigured, please check for any mistakes.
+	goto end
+)
+
+if %SimpleMessage% == 0 (
+	rem Jumping to normalpage label...
+	goto normalpage
+)
+
+if %SimpleMessage% == 1 (
+	rem Jumping to alternatepage label...
+	goto alternatepage
+)
+

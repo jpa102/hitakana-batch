@@ -1,0 +1,11 @@
+:CheckSimpleMessageVarPresence
+type main.ini | findstr "SimpleMessage"
+cls
+if %errorlevel% == 1 (
+	set SimpleMessageVarError=1
+	goto ResizeWindowCheck
+) else (
+	set SimpleMessageVarError=0
+	goto DisplayMessageCheck
+)
+

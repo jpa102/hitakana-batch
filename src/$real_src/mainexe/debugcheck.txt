@@ -1,0 +1,19 @@
+::
+::	Check if debugging is enabled or not
+::
+
+type main.ini | findstr "DebugScript=true"
+cls
+if %errorlevel% == 0 (
+	set CDebugScripts=1
+) else (
+	set CDebugScripts=0
+)
+
+if %CDebugScripts% == 0 (
+	@echo off
+) else (
+	@echo on
+)
+
+

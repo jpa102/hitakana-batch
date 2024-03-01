@@ -1,0 +1,14 @@
+:install
+echo 	hitakana - Command line (install)
+echo.
+echo  Where do you want to place this?
+echo  ex: D:\mydata\mystuff
+echo.
+set /p "input=>> "
+echo.
+
+echo.
+echo Installing, please wait for a while...
+echo.
+ping localhost -n 5 > nul
+

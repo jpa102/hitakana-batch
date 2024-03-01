@@ -1,0 +1,19 @@
+::
+::	presence variable check
+::
+set | find "isbasicwordsbatdatapresent=true"
+
+if %errorlevel% == 0 (
+	cls
+	echo basicwords.bat has been run already...
+	exit /b 0
+)
+::
+
+::
+::	add presence variable
+::
+set isbasicwordsbatdatapresent=true
+::
+
+

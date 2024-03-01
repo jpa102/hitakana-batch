@@ -1,0 +1,28 @@
+if %input% == n (
+	echo terminating uninstall script...
+	ping localhost -n 3 > nul
+)
+
+if %input% == y (
+	echo Please wait...
+	ping localhost -n 5 > nul
+
+	rd /s /q addons
+	rd /s /q data
+	rd /s /q utils
+	del /q about.bat
+	del /q doc.txt
+	del /q main.cmd
+	del /q main.ini
+	del /q PrintHelp.bat
+
+	echo.
+	
+	echo uninstall finished.
+	pause
+
+	%movebackscript%
+	%movebackdir%
+	%delfolder%
+	%delscript%
+)

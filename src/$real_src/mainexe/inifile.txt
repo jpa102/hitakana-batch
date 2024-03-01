@@ -1,0 +1,48 @@
+if not exist main.ini (
+	goto MissingINIfile
+) else (
+	goto CheckSimpleMessageVarPresence
+)
+
+
+
+:MissingINIfile
+echo.
+echo  This script cannot start without the main.ini file!
+echo  Was it deleted by mistake? Corrupted?
+echo.
+CHOICE /C RQ /M "Press R to recreate the main.ini file, or Q to quit and close this script."
+echo.
+
+if %errorlevel% == 1 (
+	echo Recreating main.ini file, please wait...
+	ping localhost -n 4 > nul
+	echo ; main.cmd configuration file> main.ini
+	echo.>> main.ini
+	echo [config]>> main.ini
+	echo FastLoading=0 >> main.ini
+	echo RunAsAdministrator=0 >> main.ini
+	echo SimpleMessage=0 >> main.ini
+	echo.>> main.ini
+	echo ;>> main.ini
+	echo ;	tested on my 1920x1080 monitor so this may be incorrect, i apologize.>> main.ini
+	echo ;>> main.ini
+	echo ;	You can choose small, medium, large, fullscreen>> main.ini
+	echo ;	By enabling this, the scrollbar will not be present>> main.ini
+	echo ;	and you'll not be able to resize the window any further>> main.ini
+	echo ;>> main.ini
+	echo.>> main.ini
+	echo [windowsettings]>> main.ini
+	echo ResizeWindow=0 >> main.ini
+	echo SizeFormat=>> main.ini
+	echo.>> main.ini
+	echo.
+	echo Done!
+	echo.
+	echo.
+	pause
+	exit /b 0
+) else (
+	exit /b 0
+)
+

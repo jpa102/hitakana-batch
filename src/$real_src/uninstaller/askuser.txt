@@ -1,0 +1,10 @@
+echo.
+echo  Are you sure you want to uninstall "hitakana - Command line"?
+echo  You can decide by choosing one of the options below.
+echo.
+echo 	[y] - yes
+echo 	[n] - no
+echo.
+set /p "input=>> "
+echo.
+

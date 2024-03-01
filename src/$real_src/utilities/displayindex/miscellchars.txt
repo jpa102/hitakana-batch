@@ -1,0 +1,12 @@
+echo.
+echo === [Miscellaneous chars] ===
+echo.
+echo  k_l         (visualization: -- [something like ramen - raamen])
+echo  expoint     (different from the usual exclamation point "!")
+echo  qmark       (different from the usual question mark "?")
+echo  comma       (different from the usual comma ",")
+echo  dot         (different from the usual dot ".")
+echo  leftquote   (beginning ["word] - different from ")
+echo  rightquote  (end [word"] - different from ")
+echo  space       (i don't think this is necessary, but i'll include it)
+echo.

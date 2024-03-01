@@ -1,0 +1,39 @@
+echo === [HIRAGANA] ===
+echo Starts with: "h_"
+echo.
+echo  h_a (a) ^| h_ka (ka) ^|  h_sa (sa)  ^|  h_ta (ta)  ^| h_na (na) ^| h_ha (ha) ^| h_ma (ma) ^| h_ya (ya) ^| h_ra (ra) ^| h_wa (wa) ^| h_n (n)
+echo  h_i (i) ^| h_ki (ki) ^| h_shi (shi) ^| h_chi (chi) ^| h_ni (ni) ^| h_hi (hi) ^| h_mi (mi) ^|           ^| h_ri (ri)
+echo  h_u (u) ^| h_ku (ku) ^|  h_su (su)  ^| h_tsu (tsu) ^| h_nu (nu) ^| h_fu (fu) ^| h_mu (mu) ^| h_yu (yu) ^| h_ru (ru)
+echo  h_e (e) ^| h_ke (ke) ^|  h_se (se)  ^|  h_te (te)  ^| h_ne (ne) ^| h_he (he) ^| h_me (me) ^|           ^| h_re (re)
+echo  h_o (o) ^| h_ko (ko) ^|  h_so (so)  ^|  h_to (to)  ^| h_no (no) ^| h_ho (ho) ^| h_mo (mo) ^| h_yo (yo) ^| h_ro (ro) ^| h_wo (wo)
+
+echo.
+
+echo --- ^(dakuten^)
+echo          ^| h_ga (ga) ^| h_za (za) ^| h_da (da) ^|           ^| h_ba (ba) ^|           ^| 
+echo          ^| h_gi (gi) ^| h_ji (ji) ^|           ^|           ^| h_bi (bi) ^|           ^| 
+echo          ^| h_gu (gu) ^| h_zu (zu) ^|           ^|           ^| h_bu (bu) ^|           ^| 
+echo          ^| h_ge (ge) ^| h_ze (ze) ^| h_de (de) ^|           ^| h_be (be) ^|           ^| 
+echo          ^| h_go (go) ^| h_zo (zo) ^| h_do (do) ^|           ^| h_bo (bo) ^|           ^| 
+
+echo.
+
+echo --- ^(handakuten^)
+echo  h_pa (pa) ^| 
+echo  h_pi (pi) ^| 
+echo  h_pu (pu) ^| 
+echo  h_pe (pe) ^| 
+echo  h_po (po) ^|
+echo.
+
+echo --- ^(small hiragana^)
+echo Starts with: "sh_"
+echo.
+echo  sh_a (a) ^| sh_ka (ka) ^|            ^|              ^|            ^|            ^|            ^| sh_ya (ya)
+echo  sh_i (i) ^|            ^|            ^|              ^|            ^|            ^|            ^| 
+echo  sh_u (u) ^|            ^|            ^| sh_tsu (tsu) ^|            ^|            ^|            ^| sh_yu (yu)
+echo  sh_e (e) ^| sh_ke (ke) ^|            ^|              ^|            ^|            ^|            ^| 
+echo  sh_o (o) ^|            ^|            ^|              ^|            ^|            ^|            ^| sh_yo (yo)
+
+echo.
+echo.

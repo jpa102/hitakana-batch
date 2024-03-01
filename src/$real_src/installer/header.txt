@@ -1,0 +1,4 @@
+@echo off
+title setup for "hitakana_batch" - part 2
+cd /d "%~dp0"
+

@@ -1,0 +1,202 @@
+﻿
+
+	for hiragana and katakana
+
+長音符 - chouonpu (usually used in katakana) = %e3%83%bc
+exclamation point = %ef%bc%81
+question mark=%ef%bc%9f
+period = %e3%80%82
+comma = %e3%80%81
+left quote = %e3%80%8c
+right quote = %e3%80%8d
+::==============
+
+::==============
+
+space = %20
+
+::===============================================================================
+:: for katakana
+::
+
+  a = %e3%82%a2
+  i = %e3%82%a4
+  u = %e3%82%a6
+  e = %e3%82%a8
+  o = %e3%82%aa
+ ka = %e3%82%ab
+ ki = %e3%82%ad
+ ku = %e3%82%af
+ ke = %e3%82%b1
+ ko = %e3%82%b3
+ sa = %e3%82%b5
+shi = %e3%82%b7
+ su = %e3%82%b9
+ se = %e3%82%bb
+ so = %e3%82%bd
+ ta = %e3%82%bf
+chi = %e3%83%81
+tsu = %e3%83%84
+ te = %e3%83%86
+ to = %e3%83%88
+ na = %e3%83%8a
+ ni = %e3%83%8b
+ nu = %e3%83%8c
+ ne = %e3%83%8d
+ no = %e3%83%8e
+ ha = %e3%83%8f
+ hi = %e3%83%92
+ fu = %e3%83%95
+ he = %e3%83%98
+ ho = %e3%83%9b
+ ma = %e3%83%9e
+ mi = %e3%83%9f
+ mu = %e3%83%a0
+ me = %e3%83%a1
+ mo = %e3%83%a2
+ ya = %e3%83%a4
+ yu = %e3%83%a6
+ yo = %e3%83%a8
+ ra = %e3%83%a9
+ ri = %e3%83%aa
+ ru = %e3%83%ab
+ re = %e3%83%ac
+ ro = %e3%83%ad
+ wa = %e3%83%af
+ wo = %e3%83%b2
+  n = %e3%83%b3
+
+--- dakuten
+ ga = %e3%82%ac
+ gi = %e3%82%ae
+ gu = %e3%82%b0
+ ge = %e3%82%b2
+ go = %e3%82%b4
+ za = %e3%82%b6
+ ji = %e3%82%b8
+ zu = %e3%82%ba
+ ze = %e3%82%bc
+ zo = %e3%82%be
+ da = %e3%83%80
+ de = %e3%83%87
+ do = %e3%83%89
+
+ ba = %e3%83%90
+ bi = %e3%83%93
+ bu = %e3%83%96
+ be = %e3%83%99
+ bo = %e3%83%9c
+
+--- handakuten
+ pa = %e3%83%91
+ pi = %e3%83%94
+ pu = %e3%83%97
+ pe = %e3%83%9a
+ po = %e3%83%9d
+
+--- small katakana
+  a = %e3%82%a1
+  i = %e3%82%a3
+  u = %e3%82%a5
+  e = %e3%82%a7
+  o = %e3%82%a9
+ ka = %e3%83%b5
+ ku = %e3%87%b0
+ ke = %e3%83%b6
+ ya = %e3%83%a3
+ yu = %e3%83%a5
+ yo = %e3%83%a7
+tsu = %e3%83%83
+
+
+::===============================================================================
+:: for hiragana
+::
+
+  a = %e3%81%82
+  i = %e3%81%84
+  u = %e3%81%86
+  e = %e3%81%88
+  o = %e3%81%8a
+ ka = %e3%81%8b
+ ki = %e3%81%8d
+ ku = %e3%81%8f
+ ke = %e3%81%91
+ ko = %e3%81%93
+ sa = %e3%81%95
+shi = %e3%81%97
+ su = %e3%81%99
+ se = %e3%81%9b
+ so = %e3%81%9d
+ ta = %e3%81%9f
+chi = %e3%81%a1
+tsu = %e3%81%a4
+ te = %e3%81%a6
+ to = %e3%81%a8
+ na = %e3%81%aa
+ ni = %e3%81%ab
+ nu = %e3%81%ac
+ ne = %e3%81%ad
+ no = %e3%81%ae
+ ha = %e3%81%af
+ hi = %e3%81%b2
+ fu = %e3%81%b5
+ he = %e3%81%b8
+ ho = %e3%81%bb
+ ma = %e3%81%be
+ mi = %e3%81%bf
+ mu = %e3%82%80
+ me = %e3%82%81
+ mo = %e3%82%82
+ ya = %e3%82%84
+ yu = %e3%82%86
+ yo = %e3%82%88
+ ra = %e3%82%89
+ ri = %e3%82%8a
+ ru = %e3%82%8b
+ re = %e3%82%8c
+ ro = %e3%82%8d
+ wa = %e3%82%8f
+ wo = %e3%82%92
+  n = %e3%82%93
+
+--- dakuten
+ ga = %e3%81%8c
+ gi = %e3%81%8e
+ gu = %e3%81%90
+ ge = %e3%81%92
+ go = %e3%81%94
+ za = %e3%81%96
+ ji = %e3%81%98
+ zu = %e3%81%9a
+ ze = %e3%81%9c
+ zo = %e3%81%9e
+ da = %e3%81%a0
+ de = %e3%81%a7
+ do = %e3%81%a9
+
+ ba = %e3%81%b0
+ bi = %e3%81%b3
+ bu = %e3%81%b6
+ be = %e3%81%b9
+ bo = %e3%81%bc
+
+--- handakuten
+ pa = %e3%81%b1
+ pi = %e3%81%b4
+ pu = %e3%81%b7
+ pe = %e3%81%ba
+ po = %e3%81%bd
+
+--- small hiragana
+   a = %e3%81%81
+   i = %e3%81%83
+   u = %e3%81%85
+   e = %e3%81%87
+   o = %e3%81%89
+  ka = %e3%82%95
+  ke = %e3%82%96
+  ya = %e3%82%83
+  yu = %e3%82%85
+  yo = %e3%82%87
+ tsu = %e3%81%a3

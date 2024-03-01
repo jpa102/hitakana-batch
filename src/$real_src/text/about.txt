@@ -1,0 +1,80 @@
+@echo off
+
+set "__=%%%"
+
+
+
+echo.
+echo   %~nx0
+echo.
+echo 	This script will let you get japanese characters in hex form.
+echo 	Just type in the key letter variable and it will give you the
+echo 	hex data for that character for you to copy ^/ paste into the browser!
+echo.
+echo 	%__%e3%__%81%__%8b%__%e3%__%81%__%a3%__%e3%__%81%__%93%__%e3%__%81%__%84%__%e3%__%81%__%84 for kakkoii ^(hiragana^)
+echo 	--- This will go after https://google.com/search?q=
+echo.
+echo 	Alternatively. Type in s/ in the address bar and paste your hex in there, then
+echo 	press the tab key to get the hiragana / katakana that you want
+echo.
+echo.
+echo ======================================================================================
+echo.
+echo.
+echo 	Originally, i created this mainly for fun :D XD XP
+echo. 	I wasn't aware that characters outside of latin alphabet
+echo 	can be turned into hex after copying a link from the browser
+echo 	address bar and then pasting it into the standard notepad.exe
+echo 	I would always wonder why they look like this after doing that.
+echo.
+echo 	Now that i've been used to using computers for longer periods
+echo 	of time, i eventually discovered why that happens. And because
+echo 	of that, it gave me the motivation to create this script.
+echo.
+echo 	In the early development, i had no idea how to store the hex
+echo 	data with the percentage %__% character in a variable, so i
+echo 	resorted to storing them in a text file for now.
+echo 	The script would parse the text horribly ^(text scattered
+echo 	everywhere in the console screen^) so i gave myself a break,
+echo 	leaving behind the script for months.
+echo 	After some research and watching my favorite youtuber "@endermanch"
+echo 	for hours, it made me rewrite my script from the ground up, adding
+echo 	features and more characters as i research the japanese alphabet
+echo 	and its characters in the Internet.
+echo.
+echo 	From there, i learned how to set up a settings file for use
+echo 	in the main script, generating a new settings file in case it
+echo 	was deleted accidentally, and how to call another script without
+echo 	starting it up in a separate window.
+echo.
+echo 	There are characters that i found interesting, take %__%e3%__%82%__%90
+echo 	for example.
+echo 	This is one of the characters i accidentally discovered after
+echo 	messing around with the hex values in the address bar. It is
+echo 	the ^/wi^/ character in japanese hiragana. Also including %__%e3%__%82%__%91
+echo 	which is ^/we^/. This character %__%e3%__%82%__%8a is the first
+echo 	character that i've easily memorized in hex form, i originally
+echo 	discovered this while i was inspecting some exe file 
+echo 	from a hex editor and i thought it's a cool looking character.
+echo.
+echo 	I also memorized %__%e5%__%8f%__%a4, %__%e8%__%a6%__%8b, %__%e3%__%81%__%95, and %__%e3%__%82%__%93
+echo 	which when combined is spelled "komisan", the two hex are in
+echo 	japanese kanji. I have no idea how i was able to memorize all
+echo 	of them despite looking complex to an average person.
+echo.
+echo 	By the end of september, this script is pretty much complete and
+echo 	in a usable state. I was feeling proud of what i've created and
+echo 	since then, i found myself searching in google using japanese
+echo 	characters. I even found content that i now like and content that
+echo 	other people talk about, like anime for example.
+echo 	It would trigger the correction mechanism from google search since
+echo 	i was searching it in a different way.
+echo.
+echo.
+echo.
+echo 	This is about it. I'm happy if you've made it this far and actually
+echo 	read this long essay of mine :D It definitely took me a lot of time.
+echo.
+pause
+
+exit /b 0
