@@ -1,5 +1,5 @@
 # introduction
-this is hitakana, a silly *batch script* that **outputs** japanese kana (hiragana & katakana) in utf-8 hex that's formatted to be pasted into any web browser (address bar)
+this is hitakana, a silly *batch script* i made for fun that **outputs** japanese kana (hiragana & katakana) in utf-8 hex that's formatted to be pasted into any web browser (address bar)
 
 ## building
 go to src/$real_src and run makefiles.cmd
@@ -13,7 +13,7 @@ where "%output%" is just a remapped echo command, and "%your_input%" is the type
 
 h_ is for hiragana and k_ is for katakana
 
-a **good example** of output is %output% %h_a%%h_ri%%h_ga%%h_to%%h_u% which will print out "%e3%81%82%e3%82%8a%e3%81%8c%e3%81%a8%e3%81%86" (ありがとう)
+a **good example** of output is *%output% %h_a%%h_ri%%h_ga%%h_to%%h_u%* which will print out **"%e3%81%82%e3%82%8a%e3%81%8c%e3%81%a8%e3%81%86"** (ありがとう)
 
 # etc / miscellaneous
 
