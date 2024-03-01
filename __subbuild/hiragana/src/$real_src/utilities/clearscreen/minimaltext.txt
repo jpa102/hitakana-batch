@@ -1,0 +1,12 @@
+::===============================================================================
+:alternatepage
+::
+cls
+echo.
+echo 	start typing...
+echo 	[ ex: %__%output%__% %__%ri%__% will give you %__%e3%__%82%__%8a. ]
+echo.
+goto end
+
+
+

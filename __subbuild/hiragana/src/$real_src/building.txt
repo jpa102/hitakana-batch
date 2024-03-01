@@ -1,0 +1,21 @@
+By launching makefiles.cmd script, you are building the files for this script
+Once you've built the files, you can then compile them all
+into an exe installer using iexpress (see build.cmd)
+
+The build files will be located at src folder
+You can choose to move the build files to your own directory for personal use
+Running the $cleanup.cmd script will delete them all
+
+
+NOTE:
+	You MUST replace the "YourDriveDirectory" in hitakanabatch_setup.txt
+	with YOUR own directory path (do not change the hitakana_batch\src as it will break)
+	After that, rename the file extension .txt to .sed
+
+	You can change the author name in build.ini, it's optional
+
+	If they request for the source code where you've built the exe installer,
+	you must provide it to them UNTAMPERED
+	Structure: hitakana_src[yourname].zip (it can be in any archive format)
+
+Happy building!

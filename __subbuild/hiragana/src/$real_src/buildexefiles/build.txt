@@ -1,0 +1,53 @@
+@echo off
+cd /d "%~dp0"
+
+ren build.ini build.bat
+ping localhost -n 1 > nul
+call build.bat
+ping localhost -n 1 > nul
+ren build.bat build.ini
+
+
+
+echo What version do you want to input?
+echo ex: 1.24 unstable
+echo.
+set /p "verfolder=>> "
+cls
+
+echo building "hitakanabatch_setup.exe", please wait...
+ping localhost -n 4 > nul
+
+iexpress /n hitakanabatch_setup.sed
+ping localhost -n 3 > nul
+echo.
+
+move hitakanabatch_setup.exe ..
+cd ..
+
+if not exist build (
+	md build
+)
+
+move hitakanabatch_setup.exe build
+cd build
+md "%verfolder%"
+move hitakanabatch_setup.exe "%verfolder%"
+
+if %CreateCompileTxt% == false (
+	goto finish
+)
+
+if %CreateCompileTxt% == true (
+	echo Compiled by: %CreatorName%> compile_info.txt
+	echo.>> compile_info.txt
+	echo Compile date: %date%>> compile_info.txt
+	echo Compile time: %time%>> compile_info.txt
+	ping localhost -n 2 > nul
+	move compile_info.txt "%verfolder%"
+)
+
+:finish
+echo.
+echo Done!
+ping localhost -n 4 > nul

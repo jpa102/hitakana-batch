@@ -1,0 +1,9 @@
+if not exist "%input%"\hitakana_batch (
+	md "%input%"\hitakana_batch
+) else (
+	echo Hrm. It seems like you've already installed this, or a weird error occured.
+	echo.
+	pause
+	exit /b 1
+)
+

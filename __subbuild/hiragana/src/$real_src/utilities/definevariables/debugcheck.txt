@@ -1,0 +1,8 @@
+if %CDebugScripts% == 0 (
+	@echo off
+)
+
+if %CDebugScripts% == 1 (
+	@echo on
+)
+

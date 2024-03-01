@@ -1,0 +1,57 @@
+:ResizeWindowCheck
+type main.ini | findstr "ResizeWindow=0"
+cls
+if %errorlevel% == 0 (
+	set ResizeWindow=0
+	rem window resizing is set to 0, skipping...
+	goto FastLoadingCheck
+) else (
+	goto resize
+)
+
+:resize
+type main.ini | findstr "SizeFormat=small"
+cls
+if %errorlevel% == 1 (
+	rem Maybe different input, or none specified
+) else (
+	set SizeFormat=small
+	set ResizeWindow=1
+	rem the "small" window size
+	mode con: cols=110 lines=36
+)
+
+type main.ini | findstr "SizeFormat=medium"
+cls
+if %errorlevel% == 1 (
+	rem Maybe different input, or none specified
+) else (
+	set SizeFormat=medium
+	set ResizeWindow=1
+	rem the "small" window size
+	mode con: cols=138 lines=50
+)
+
+type main.ini | findstr "SizeFormat=large"
+cls
+if %errorlevel% == 1 (
+	rem Maybe different input, or none specified
+) else (
+	set SizeFormat=large
+	set ResizeWindow=1
+	rem the "large" window size
+	mode con: cols=173 lines=64
+)
+
+type main.ini | findstr "SizeFormat=fullscreen"
+cls
+if %errorlevel% == 1 (
+	rem Maybe different input, or none specified
+) else (
+	set SizeFormat=fullscreen
+	set ResizeWindow=1
+	rem the "fullscreen" window size
+	mode con: cols=238 lines=84
+)
+
+

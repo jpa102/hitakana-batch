@@ -1,0 +1,8 @@
+
+echo.
+ping localhost -n 4 > nul
+echo.
+
+echo Done!
+ping localhost -n 2 > nul
+exit

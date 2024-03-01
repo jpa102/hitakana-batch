@@ -1,0 +1,19 @@
+md "%input%"\hitakana_batch\addons
+md "%input%"\hitakana_batch\data
+md "%input%"\hitakana_batch\utils
+
+      move basicwords.bat "%input%"\hitakana_batch\addons
+           move build.txt "%input%"\hitakana_batch\addons
+        move database.pdb "%input%"\hitakana_batch\data
+    move raw_database.txt "%input%"\hitakana_batch\data
+       move _launcher.cmd "%input%"\hitakana_batch\utils
+           move clear.bat "%input%"\hitakana_batch\utils
+          move define.bat "%input%"\hitakana_batch\utils
+  move displaymessage.bat "%input%"\hitakana_batch\utils
+     move indexlister.bat "%input%"\hitakana_batch\utils
+           move about.bat "%input%"\hitakana_batch
+             move doc.txt "%input%"\hitakana_batch
+            move main.cmd "%input%"\hitakana_batch
+            move main.ini "%input%"\hitakana_batch
+       move PrintHelp.bat "%input%"\hitakana_batch
+       move uninstall.cmd "%input%"\hitakana_batch

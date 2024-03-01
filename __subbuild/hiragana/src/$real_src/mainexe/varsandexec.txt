@@ -1,0 +1,16 @@
+:normalstart
+
+::=============================================
+::	embedded variables
+::
+set _origcodename=e3828achan_hex
+set codename=hitakana_hex
+set statusenable=1
+set statustype=alpha
+set ver=0.90
+set "testvariable=this is a test variable."
+set "testvariable2=this is a another test variable."
+set "about=echo. && echo    This is a sub build of 'hitakana - Command line', only giving out && echo    hex data for japanese hiragana characters. && echo."
+::=============================================
+
+cmd /k utils\_launcher.cmd

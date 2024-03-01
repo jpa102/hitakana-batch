@@ -1,0 +1,2 @@
+call utils\define.bat
+call utils\displaymessage.bat

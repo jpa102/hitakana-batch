@@ -1,0 +1,3 @@
+set "output=echo response data:"
+set "clear=utils\clear.bat"
+set "list=utils\indexlister.bat"

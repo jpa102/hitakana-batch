@@ -1,0 +1,132 @@
+@echo off
+
+if %CDebugScripts% == 0 (
+	@echo off
+)
+
+if %CDebugScripts% == 1 (
+	@echo on
+)
+
+::
+::	apparently, command prompt doesn't like the percentage char being displayed at output
+::	so, this means that:
+::		__ (double underscore = Percentage symbol)
+::
+
+:: for the percentage symbol to appear on the console screen
+set "__=%%%"
+
+:: browser link(s)
+set "BingSearch=https://bing.com/search?q="
+set "GoogleSearch=https://google.com/search?q="
+set "YouTubeSearch=https://youtube.com/results?searcquery="
+
+::==============
+:: symbols / characters
+::
+set expoint=%__%ef%__%bc%__%81
+set qmark=%__%ef%__%bc%__%9f
+set dot=%__%e3%__%80%__%82
+set comma=%__%e3%__%80%__%81
+set leftquote=%__%e3%__%80%__%8c
+set rightquote=%__%e3%__%80%__%8d
+::==============
+
+::==============
+:: space
+set "space=%__%20"
+
+
+
+::===============================================================================
+:: for hiragana
+::
+
+  set a=%__%e3%__%81%__%82
+  set i=%__%e3%__%81%__%84
+  set u=%__%e3%__%81%__%86
+  set e=%__%e3%__%81%__%88
+  set o=%__%e3%__%81%__%8a
+ set ka=%__%e3%__%81%__%8b
+ set ki=%__%e3%__%81%__%8d
+ set ku=%__%e3%__%81%__%8f
+ set ke=%__%e3%__%81%__%91
+ set ko=%__%e3%__%81%__%93
+ set sa=%__%e3%__%81%__%95
+set shi=%__%e3%__%81%__%97
+ set su=%__%e3%__%81%__%99
+ set se=%__%e3%__%81%__%9b
+ set so=%__%e3%__%81%__%9d
+ set ta=%__%e3%__%81%__%9f
+set chi=%__%e3%__%81%__%a1
+set tsu=%__%e3%__%81%__%a4
+ set te=%__%e3%__%81%__%a6
+ set to=%__%e3%__%81%__%a8
+ set na=%__%e3%__%81%__%aa
+ set ni=%__%e3%__%81%__%ab
+ set nu=%__%e3%__%81%__%ac
+ set ne=%__%e3%__%81%__%ad
+ set no=%__%e3%__%81%__%ae
+ set ha=%__%e3%__%81%__%af
+ set hi=%__%e3%__%81%__%b2
+ set fu=%__%e3%__%81%__%b5
+ set he=%__%e3%__%81%__%b8
+ set ho=%__%e3%__%81%__%bb
+ set ma=%__%e3%__%81%__%be
+ set mi=%__%e3%__%81%__%bf
+ set mu=%__%e3%__%82%__%80
+ set me=%__%e3%__%82%__%81
+ set mo=%__%e3%__%82%__%82
+ set ya=%__%e3%__%82%__%84
+ set yu=%__%e3%__%82%__%86
+ set yo=%__%e3%__%82%__%88
+ set ra=%__%e3%__%82%__%89
+ set ri=%__%e3%__%82%__%8a
+ set ru=%__%e3%__%82%__%8b
+ set re=%__%e3%__%82%__%8c
+ set ro=%__%e3%__%82%__%8d
+ set wa=%__%e3%__%82%__%8f
+ set wo=%__%e3%__%82%__%92
+  set n=%__%e3%__%82%__%93
+
+:: --- dakuten
+ set ga=%__%e3%__%81%__%8c
+ set gi=%__%e3%__%81%__%8e
+ set gu=%__%e3%__%81%__%90
+ set ge=%__%e3%__%81%__%92
+ set go=%__%e3%__%81%__%94
+ set za=%__%e3%__%81%__%96
+ set ji=%__%e3%__%81%__%98
+ set zu=%__%e3%__%81%__%9a
+ set ze=%__%e3%__%81%__%9c
+ set zo=%__%e3%__%81%__%9e
+ set da=%__%e3%__%81%__%a0
+ set de=%__%e3%__%81%__%a7
+ set do=%__%e3%__%81%__%a9
+
+ set ba=%__%e3%__%81%__%b0
+ set bi=%__%e3%__%81%__%b3
+ set bu=%__%e3%__%81%__%b6
+ set be=%__%e3%__%81%__%b9
+ set bo=%__%e3%__%81%__%bc
+
+:: --- handakuten
+ set pa=%__%e3%__%81%__%b1
+ set pi=%__%e3%__%81%__%b4
+ set pu=%__%e3%__%81%__%b7
+ set pe=%__%e3%__%81%__%ba
+ set po=%__%e3%__%81%__%bd
+
+:: --- small hiragana
+   set s_a=%__%e3%__%81%__%81
+   set s_i=%__%e3%__%81%__%83
+   set s_u=%__%e3%__%81%__%85
+   set s_e=%__%e3%__%81%__%87
+   set s_o=%__%e3%__%81%__%89
+  set s_ka=%__%e3%__%82%__%95
+  set s_ke=%__%e3%__%82%__%96
+  set s_ya=%__%e3%__%82%__%83
+  set s_yu=%__%e3%__%82%__%85
+  set s_yo=%__%e3%__%82%__%87
+ set s_tsu=%__%e3%__%81%__%a3

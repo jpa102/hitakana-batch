@@ -1,0 +1,38 @@
+
+echo === [HIRAGANA] ===
+echo.
+echo  a ^| ka ^|  sa  ^|  ta ^| na ^| ha ^| ma ^| ya ^| ra ^| wa ^| n
+echo  i ^| ki ^| shi  ^| chi ^| ni ^| hi ^| mi ^|    ^| ri ^|    ^|
+echo  u ^| ku ^|  su  ^| tsu ^| nu ^| fu ^| mu ^| yu ^| ru ^|    ^|
+echo  e ^| ke ^|  se  ^|  te ^| ne ^| he ^| me ^|    ^| re ^|    ^|
+echo  o ^| ko ^|  so  ^|  to ^| no ^| ho ^| mo ^| yo ^| ro ^| wo ^|
+
+echo.
+
+echo --- ^(dakuten^)
+echo          ^| ga ^| za ^| da ^|    ^| ba ^|    ^|
+echo          ^| gi ^| ji ^|    ^|    ^| bi ^|    ^|
+echo          ^| gu ^| zu ^|    ^|    ^| bu ^|    ^|
+echo          ^| ge ^| ze ^| de ^|    ^| be ^|    ^|
+echo          ^| go ^| zo ^| do ^|    ^| bo ^|    ^|
+
+echo.
+
+echo --- ^(handakuten^)
+echo  pa ^|    ^|
+echo  pi ^|    ^|
+echo  pu ^|    ^|
+echo  pe ^|    ^|
+echo  po ^|    ^|
+echo.
+
+echo --- ^(small hiragana^)
+echo.
+echo  s_a ^| s_ka ^|        ^|       ^|      ^|        ^|            ^|       ^| s_ya
+echo  s_i ^|      ^|        ^|       ^|      ^|        ^|            ^|       ^| 
+echo  s_u ^|      ^|        ^| s_tsu ^|      ^|        ^|            ^| s_yu  ^| 
+echo  s_e ^| s_ke ^|        ^|       ^|      ^|        ^|            ^|       ^| 
+echo  s_o ^|      ^|        ^|       ^|      ^|        ^|            ^|       ^| s_yo
+
+echo.
+echo.
