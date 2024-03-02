@@ -6,6 +6,8 @@ go to src/$real_src and run makefiles.cmd
 
 this will combine all the text files into batch scripts (where main.cmd is the main batch script)
 
+**optional:** you can run build.cmd to create an exe installer based on iexpress (there are some bugs though, namely the "missing" command.com file)
+
 ## usage
 type %output% %your_input%
 
@@ -22,4 +24,4 @@ a **good example** of output is *%output% %h_a%%h_ri%%h_ga%%h_to%%h_u%* which wi
 that's a good one, there's sub builds of hitakana where it focuses on only one kana so you don't have to make your fingers tired like it ran a marathon
 
 ## why is it named like that?
-i combined (hira)gana and kata(kana) into "one" word, that's why it's spelled like that
+i combined (hi)ragana and ka(takana) into "one" word, that's why it's spelled like that
