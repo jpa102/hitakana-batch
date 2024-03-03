@@ -2,20 +2,20 @@
 this is hitakana, a silly *batch script* i made for fun that **outputs** japanese kana (hiragana & katakana) in utf-8 hex that's formatted to be pasted into any web browser (address bar)
 
 ## building
-go to src/$real_src and run makefiles.cmd
+go to **src/$real_src** and run makefiles.cmd
 
-this will combine all the text files into batch scripts (where main.cmd is the main batch script)
+this will combine all the text files into batch scripts *(where main.cmd is the main batch script)*
 
-**optional:** you can run build.cmd to create an exe installer based on iexpress (there are some bugs though, namely the "missing" command.com file)
+**optional:** you can run build.cmd to create an exe installer based on iexpress *(there are some bugs though, namely the "missing" command.com file)*
 
 ## usage
 type %output% %your_input%
 
-where "%output%" is just a remapped echo command, and "%your_input%" is the type of kana (%h_ri% will output %e3%82%8a / 0xe3828a)
+where **"%output%"** is just a remapped echo command with some tweaks and **"%your_input%"** is the type of kana (%h_ri% will output %e3%82%8a / 0xe3828a)
 
-h_ is for hiragana and k_ is for katakana
+*h_* is for **hiragana** and *k_* is for **katakana**
 
-a **good example** of output is *%output% %h_a%%h_ri%%h_ga%%h_to%%h_u%* which will print out **"%e3%81%82%e3%82%8a%e3%81%8c%e3%81%a8%e3%81%86"** (ありがとう)
+one **good example** is *%output% %h_a%%h_ri%%h_ga%%h_to%%h_u%* which will print out **"%e3%81%82%e3%82%8a%e3%81%8c%e3%81%a8%e3%81%86"** (ありがとう)
 
 # etc / miscellaneous
 
