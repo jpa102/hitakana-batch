@@ -67,7 +67,7 @@ tsu = "%e3%81%a4";
  zo = "%e3%81%9e";
  da = "%e3%81%a0";
  de = "%e3%81%a7";
- //do = "%e3%81%a9"; // i just found out it's a command and it's getting treated like one
+ d_do = "%e3%81%a9"; // variable originally named "do", but 'do' is apparently a part of javascript conditional (just realized)
 
  ba = "%e3%81%b0";
  bi = "%e3%81%b3";
