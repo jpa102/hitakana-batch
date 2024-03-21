@@ -1,0 +1,23 @@
+now i figured out how to fetch database.json, here's how to do it:
+this is an example of fetching "konnichiwa" in hex
+
+fetch(
+	`https://raw.githubusercontent.com/jpa102/hitakana-batch/main/__subbuild/katakana/javascript_src/database.json`
+
+	).then((response) => {
+
+		response.json().then((json) => {
+
+			if (json) {
+
+				let { ko, n, ni, chi, ha } = json;
+
+				console.log("\"konnichiwa\" hex is: " + ko+n+ni+chi+ha);
+
+			}
+
+		})
+
+	}
+
+);
