@@ -2,7 +2,6 @@
 	database.js
 	
 	this is database.pdb (hiragana), but adapted for javascript
-	originally intended to be in .json format, but i don't know how to retrieve the data from it :(
 	
 	example usage: console.log(a + ri + ga + to + u); or console.log(a+ri+ga+to+u);
 	idk if this is more easy to use or not, you decide
