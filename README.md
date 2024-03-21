@@ -17,6 +17,8 @@ where **"%output%"** is just a remapped echo command with some tweaks and **"%yo
 
 one **good example** is *%output% %h_a%%h_ri%%h_ga%%h_to%%h_u%* which will print out **"%e3%81%82%e3%82%8a%e3%81%8c%e3%81%a8%e3%81%86"** (ありがとう)
 
+you can then add this text into the address bar, something like https://google.com/search?q=%e3%81%82%e3%82%8a%e3%81%8c%e3%81%a8%e3%81%86 which is the same as https://google.com/search?q=ありがとう
+
 # etc / miscellaneous
 
 ## but but, i don't want to type out "h_" and "k_" every single time!!!
