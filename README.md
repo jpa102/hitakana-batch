@@ -25,9 +25,9 @@ you can then add this text into the address bar, something like https://google.c
 
 that's a good one, there's sub builds of hitakana where it focuses on only one kana so you don't have to make your fingers tired like it ran a marathon
 
-## what about other platforms?
+## ugh, batch script. can you make other versions besides this?
 
-i'm thinking about that too. but i have an experimental javascript and json versions of this batch script, at least for now
+i'm thinking about that too. but i have an experimental javascript and json versions of this batch script which you can use, at least for now
 
 ## why is it named like that?
 i combined (hi)ragana and ka(takana) into "one" word, that's why it's spelled that way
