@@ -23,5 +23,9 @@ one **good example** is *%output% %h_a%%h_ri%%h_ga%%h_to%%h_u%* which will print
 
 that's a good one, there's sub builds of hitakana where it focuses on only one kana so you don't have to make your fingers tired like it ran a marathon
 
+## what about other platforms?
+
+i'm thinking about that too. but i have an experimental javascript and json versions of this batch script, at least for now
+
 ## why is it named like that?
-i combined (hi)ragana and ka(takana) into "one" word, that's why it's spelled like that
+i combined (hi)ragana and ka(takana) into "one" word, that's why it's spelled that way
